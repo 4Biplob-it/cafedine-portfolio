@@ -1,0 +1,401 @@
+/*=============================================
+    Template Name   : My Template
+    Template URL    : http://mytemplate.com
+    Author          : ME
+    Version         : 1.0
+    Tags            : HTML, CSS
+===============================================*/
+/*=========== TABLE OF CONTENTS ============
+
+    01. General Css
+    02. 
+    
+    
+======================================*/
+/*======================
+   01. General Css
+========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #000;
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+p {
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html {
+    height: 100%;
+    overflow: visible;
+}
+
+/* =====Start Header Css====== */
+#header_sec{
+    background: url(../img/bg-image/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 80px;
+
+}
+
+#header_sec .navbar ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    
+}
+#header_sec .navbar ul li:hover a{
+color: red;
+}
+
+.welcome-text {
+    padding: 120px 0 40px 0;
+}
+.welcome-text h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.intro {
+    margin-top: -90px;
+    background: #fff;
+}
+
+.intro-item{
+    padding: 50px;
+    transition: all 0.5s ease;
+}
+.intro-item h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.intro-item:hover {
+    background: #F3F3F3;
+}
+/* ======Start cafe about css======= */
+#cafe-about{
+   padding: 100px 0;
+}
+.cursiv{
+    font-family: cursive;
+    color: #dc3545;
+}
+
+#cafe-about h2{
+    font-size: 42px;
+}
+#cafe-about .card-body p{
+    color:  #999;
+}
+
+/* =======Book Now Section======== */
+
+/* ==========BOOK NOW SECTION============ */
+.book_now {
+    background-image: url('../img/bg-image/slide-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    opacity: .55;
+  }
+  .book_now h3 {
+    color: #C8D0BB;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+  }
+  .book_now h2 {
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    margin: 16px 0 24px;
+  }
+  .book_now a {
+    background: #fff;
+    color: #111111;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .4s;
+  }
+  .book_now a:hover {
+    background: #DD272D;
+    color: #fff;
+  }
+
+/* =======Start Dishes Css======== */
+.dishes_sec{
+    background: url(../img/bg-image/food.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 120px 0;
+}
+.dishes_sec h3{
+    color: #DD272D;
+    font-family: cursive;
+    font-size: 36px;
+}
+.dishes_sec h2{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.dish_menu {
+    padding-bottom: 50px;
+}
+.dish_menu ul li{
+    display: inline-block;
+    margin-left: 12px;
+}
+.dish_menu ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    transition: .5s;
+}
+.dish_menu ul li.active a{
+    color: #DD272D;
+}
+.dish_menu ul li a:hover{
+    color: #DD272D;
+}
+
+.col-menu{
+    border: 1px dashed #999;
+    margin-bottom: 10px;
+}
+.col-menu-item{
+    padding: 15px;
+}
+.col-menu-item h4{
+    font-size: 20px;
+}
+.col-menu-item img{
+    width: 100%;
+}
+.col-menu-item span{
+    color: #DD272D;
+    font-size: 20px;
+}
+.col-menu-item p{
+    color: #7e8690;
+}
+
+.dish_btn a{
+    text-decoration: none;
+    background: #111;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 30px;
+    transition: .5s;
+}
+.dish_btn a:hover{
+    background: #DD272D;
+}
+/* =========Download Css========== */
+.download_sec {
+    padding: 120px 0;
+  }
+ .download_text {
+   margin-top: 100px;
+ }
+  .download_text span {
+    color: #e7272d;
+    font-size: 36px;
+    font-family: "Cookie",cursive;
+  }
+ .download_text h2 {
+   color: #111;
+   margin: 16px 0 24px;
+   font-family: "Cardo",sans-serif;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .download_text p  {
+   color: #899099;
+   margin: 16px 0;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Open Sans", sans-serif;
+ }
+
+ .down_btn a{
+     background: #111;
+     padding: 15px 30px;
+     display: inline-block;
+     color: #fff;
+     margin-top: 10px;
+ }
+ .down_btn a:hover{
+     border: 2px solid #111;
+     background: #fff;
+     color: #111;
+ }
+
+ .instragram_sec {
+    padding: 50px 0 0;
+    position: relative;
+  }
+  .gallary {
+    width: 224.8px;
+    display: inline-block;
+  }
+  .insta {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    margin: auto;
+    background: #DD272D;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+  }  
+
+.footer_sec{
+    padding: 100px 0;
+    background: #222;
+}
+.footer_sec h4{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 16px;
+}
+.footer_sec p{
+    color: #7e8690;
+    margin: 0 0 16px;
+}
+.social_icon ul li{
+    display: inline-block;
+}
+.social_icon ul li a{
+    padding: 10px;
+    font-size: 20px;
+    color: #7e8690;
+    transition: .5s;
+}
+.social_icon ul li:hover a {
+    color: #DD272D;
+  }
+
+.contact_info ul{
+
+}
+.contact_info ul li{
+    color: #7e8690;
+    padding: 10px 3px;
+}
+.contact_info .fa {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+.opening_time p{
+    margin: 0;
+  }
+  .opening_time h5 {
+    color: #fff;
+    font-size: 16px;
+  }
+.monday {
+    padding: 10 {x 0 20px;
+  }
+/* =======Newslatter=========== */
+.newslatter h4 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .newslatter input {
+    width: 100%;
+    padding: 10px;
+    background: #121212;
+    color: #fff;
+    outline: none;
+    border: none
+  }
+  .newslatter {
+    padding-top: 20px;
+    position: relative;
+  }
+  .envelope {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+  }
+  .envelope a {
+    text-decoration: none;
+    float: right;
+    color: #fff;
+  }
+/* =========COPYRIGHT SECTION=========== */
+.copyright {
+    padding: 16px 0;
+    background: #121212;
+  }
+.copyright p {
+    color: #7e8690;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+.copyright .pa a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.copyright ul {
+    margin: 0;
+    padding: 0;
+  }
+.copyright ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+.copyright ul li a {
+    text-decoration: none;
+    color: #8F9397;
+    font-size: 16px;
+    transition: .5s;
+  }
+.copyright ul li:hover a {
+    color: #DD272D;
+  }
